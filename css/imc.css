@@ -1,0 +1,218 @@
+/*
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.container {
+    background: #ffffff;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgba(0,0,0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.container #titulo{
+    margin-top: 20px;
+    color: #ed8610;
+    border-bottom: 1px solid #e2a866;
+    font-size: 1.8rem;
+    
+}
+
+.card-imc{
+    margin-top: 1.12rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    gap: 40px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.input p {
+    font-size: 16px;
+    color: #000;
+}
+
+ input{
+    width: 100px;
+    height: 30px;
+    border-color: #ed8610;
+    border-radius: 4px;
+
+}
+
+.calcular{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+#calcular {
+    padding: 5px 50px;
+    border-style: none;
+    background: #ed8610;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 2px 1px rgba(0,0,0, 0.2);
+
+}
+
+#resultado {
+    display: block;
+    background: #ed8610;
+    width: 200px;
+    min-height: 90px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0, 0.2);
+
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #ed8610 50%, #fd8700 80%);
+    background: #f5f5dc;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 2.25rem;
+    font-weight: 100;
+    border-bottom: solid 1px #20b2aa;
+    color: #20b2aa;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+  }
+
+
+ .input p {
+     color: #20b2aa;
+     text-transform: uppercase;
+ } 
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+.input input {
+    background: transparent;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #00dbde;
+    outline: 0;
+    text-align: center;
+  }
+
+
+  button{
+    width: 300px;
+    height: 40px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: #20b2aa;
+    color: #ffefd5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px black;
+
+  }
+  
+button:hover{
+    background: transparent;
+    transition: all .3s ease;
+    border: 2px solid #00dbde;
+    box-shadow: 0px 0px 5px transparent;
+    color: #20b2aa;
+
+
+
+    
+}
+
+#resultado{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+   justify-content: center;
+    width: 300px;
+    height: 85px;
+    border-radius: 5px;
+    font-style: italic;
+    box-shadow: 0px 0px 5px black;
+    background: #20b2aa;
+    color: #ffefd5;
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+
+  }
